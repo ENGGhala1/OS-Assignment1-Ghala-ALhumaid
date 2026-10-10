@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.Random;
 
 // ANSI Color Codes for enhanced terminal output
-class Colors {
+class Colors { 
     public static final String RESET = "\u001B[0m";
     public static final String BOLD = "\u001B[1m";
     public static final String CYAN = "\u001B[36m";
@@ -30,12 +30,18 @@ class Process implements Runnable {
     private int timeQuantum; // Time slice (time quantum) allowed per CPU access (in milliseconds)
     private int remainingTime; // Time left for the process to finish its execution
 
+    // Feature1  Store a random priority value between 1 and 10
+     private int priority;
     // Constructor to initialize the process with name, burst time, and time quantum
     public Process(String name, int burstTime, int timeQuantum) {
         this.name = name;
         this.burstTime = burstTime;
         this.timeQuantum = timeQuantum;
         this.remainingTime = burstTime; // Initially, remaining time is equal to the burst time
+
+    // Feature1 Assigns a random priority between 1 and 10
+    this.priority = 1 + new Random().nextInt(10);
+    
     }
 
     // This method will be called when the thread for this process is started
@@ -137,6 +143,11 @@ class Process implements Runnable {
         return remainingTime;
     }
 
+ // Feature 1 Returns the priority assigned to this process
+public int getPriority() {
+    return priority;
+
+}
     // Check if the process has finished (i.e., no remaining time)
     public boolean isFinished() {
         return remainingTime <= 0;
@@ -291,9 +302,13 @@ public class SchedulerSimulation {
         processMap.put(thread, process);
         
         // Print a message indicating the process has entered the ready queue
+
+ // Feature 1 Displays the process priority without changing FIFO queue order 
         System.out.println(Colors.BLUE + "  ➕ " + Colors.BOLD + Colors.CYAN + process.getName() + 
                           Colors.RESET + Colors.BLUE + " added to ready queue" + Colors.RESET + 
                           " │ Burst time: " + Colors.YELLOW + process.getBurstTime() + "ms" + 
-                          Colors.RESET);
+                          Colors.RESET +" │ Priority: " + Colors.BRIGHT_YELLOW + process.getPriority());
+
+
     }
 }
