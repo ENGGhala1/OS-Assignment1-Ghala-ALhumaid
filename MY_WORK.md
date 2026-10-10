@@ -1,6 +1,7 @@
 # 📝 MY_WORK: Student Information, Development Log, Reflection & Answers
 
-> This is the **only file** your instructor reads to grade Parts 3 and 4 (documentation and video). Everything you write here must be **in your own words**.
+> This is the **only file** your instructor reads to grade Parts 3 and 4 (documentation and 
+video). Everything you write here must be **in your own words**.
 
 ---
 
@@ -28,18 +29,18 @@
 > ⚠️ **WARNING:** Fill this in first. Your name and ID must match the student ID you set in `SchedulerSimulation.java` (line 150) and the one you say in your video.
 
 | Field | Your Answer |
-|-------|-------------|
-| **Full Name** | [Write your full name here] |
-| **Student ID** | [Write your student ID here] |
-| **University Email** | [yourid]@std.psau.edu.sa |
-| **GitHub Username** | [your-github-username] |
-| **Repository Link** | [Paste your repository link here] |
+
+| **Full Name** Ghala ALhumaid  
+| **Student ID** 446051587
+| **University Email** 446051587@std.psau.edu.sa 
+| **GitHub Username** ENGGhala1
+| **Repository Link** https://github.com/ENGGhala1/OS-Assignment1-Ghala-ALhumaid/tree/main
  
 ---
 
 ## 🎥 Video Link
 
-**Video Link**: [Paste your video link here]
+**Video Link**:  https://drive.google.com/file/d/1DkXxNIKZKDXQUILOoWjWF7rA5RE8NgP8/view?usp=drivesdk
 
 > ⚠️ **WARNING:** The video must be **publicly accessible** ("Anyone with the link can view") on **Google Drive**, **YouTube (Unlisted or Public)** or any other cloud file-sharing system. A private, restricted or broken link counts as a **missing video (-1 mark)**.
 >
