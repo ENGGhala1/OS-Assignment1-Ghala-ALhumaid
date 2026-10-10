@@ -109,22 +109,25 @@
 
 ## Example Entry (do not copy it, write your own)
 
-### Entry 1 - [September 22, 2026, 2:30 PM]
-**What I did**: Forked the repository and set up my student ID
+### Entry 1 - October 10, 2026, 2:30 PM
 
-**Details**:
-- Created GitHub account with university email
-- Forked the starter repository and renamed it
-- Changed student ID on line 150 to my actual ID (441234567)
-- Compiled and ran the program successfully
-- Committed and pushed: `Set my student ID: 441234567`
+**What I did:**  
+Set up my project and prepared it for running.
 
-**Challenges**: Had to install JDK first because `javac` wasn't recognized
+**Details:**
+- Opened the starter repository on GitHub.
+- Created my own copy of the repository.
+- Updated the student ID in the Java code.
+- Ran the program to make sure it worked correctly.
+- Saved my changes and uploaded them to GitHub.
 
-**Solution**: Downloaded JDK 17 and set the PATH variable
+**Challenges:**  
+I had trouble compiling the code because Java was not configured properly on my computer.
 
-**Time spent**: 30 minutes
+**Solution:**  
+I installed the JDK and updated the PATH variable so I could compile and run the program.
 
+**Time spent:** 30 minutes
 ---
 
 ## Your Development Log
@@ -234,19 +237,18 @@ I reviewed each method in the code and practiced explaining its purpose using si
 ---
 
 ---
-
 ## Development Log Summary
 
-> 💡 **TIP:** Fill this in **last**, after all entries are written.
+**Total time spent on assignment:** 2 Days
 
-**Total time spent on assignment**: [X hours]
+**Most challenging part:**  
+The most challenging part was understanding how threads work and how the Round-Robin algorithm moves processes in and out of the ready queue.
 
-**Most challenging part**:
+**Most interesting learning:**  
+The most interesting thing I learned was how multithreading works and how the CPU gives each process a chance to execute.
 
-**Most interesting learning**:
-
-**What I would do differently next time**:
-
+**What I would do differently next time:**  
+Next time, I would study the code earlier, test each change separately, and write down the important concepts while working on the project.
 ---
 
 # Part B: Reflection (0.5 mark)
